@@ -2,10 +2,6 @@
 
 A professional WebGIS application for visualizing geological data of Mozambique. This interactive map provides comprehensive access to Mozambique's geological information with advanced filtering and analysis capabilities.
 
-## 🌐 Live Demo
-
-**[View Live Demo](https://YOUR_USERNAME.github.io/geological-web-map-mozambique/)**
-
 ## 🗺️ Features
 
 ### 🎯 Interactive Mapping
