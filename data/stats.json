@@ -1,0 +1,2137 @@
+{
+  "total_features": 12533,
+  "unique_legends": 515,
+  "unique_eras": 17,
+  "unique_suites": 29,
+  "unique_formations": 67,
+  "crs": "EPSG:4326",
+  "columns": [
+    "OBJECTID",
+    "code2006",
+    "Order_",
+    "Legend",
+    "Legenda",
+    "Polylines",
+    "Mapping",
+    "EON",
+    "ERA",
+    "PERIOD",
+    "COMPLEX",
+    "SUITE",
+    "GrstBelt",
+    "Supergroup",
+    "Group_",
+    "Formation",
+    "Member",
+    "Label",
+    "Parent",
+    "age",
+    "TYPE",
+    "Shape_Leng",
+    "Shape_Area",
+    "geometry"
+  ],
+  "top_legends": {
+    "Eluvial floodplain mud": 1674,
+    "Eluvial floodplain clayey sand": 1331,
+    "Alluvium, sand, silt, gravel": 993,
+    "Granite": 292,
+    "Coastal sand dunes and beach sand": 224,
+    "Orthoquartzite": 224,
+    "Banded biotite gneiss and migmatite": 224,
+    "Internal dune; red aeolian sand": 197,
+    "Undifferentiated": 186,
+    "Amphibolitic gneiss, garnet amphibolite": 162,
+    "Alluvium": 158,
+    "Granitic to granodioritic gneiss": 152,
+    "Lacustrine saline mud": 129,
+    "Colluvium": 116,
+    "Fine- to medium grained sand and gravel; raised beach ridge/dunes and tidal flats": 106,
+    "Leucocratic gneiss": 97,
+    "Fluvial terrace gravel and sand": 91,
+    "Augen gneiss, with charnockite": 89,
+    "Arkosic sandstone, in part conglomeratic": 81,
+    "Quartzite": 81
+  },
+  "era_distribution": {
+    "CENOZOIC": 5533,
+    "MESOPROTEROZOIC": 2358,
+    "Mesoproterozoic": 1175,
+    "NEOPROTEROZOIC": 798,
+    "MESOZOIC": 720,
+    "PALEOPROTEROZOIC": 438,
+    "Quaternary": 424,
+    "PALEOZOIC": 278,
+    "Cambrian": 256,
+    "NEOARCHEAN": 227,
+    "Jurrassic": 83,
+    "PALEOZOIC/MESOZOIC": 64,
+    "Neoproterozoic": 23,
+    "Tertiary": 23,
+    "Cretaceous": 21,
+    "MESOARCHEAN": 1,
+    "Ordovisian": 1
+  },
+  "legends_list": [
+    {
+      "legend": "Eluvial floodplain mud",
+      "count": 1674
+    },
+    {
+      "legend": "Eluvial floodplain clayey sand",
+      "count": 1331
+    },
+    {
+      "legend": "Alluvium, sand, silt, gravel",
+      "count": 993
+    },
+    {
+      "legend": "Granite",
+      "count": 292
+    },
+    {
+      "legend": "Coastal sand dunes and beach sand",
+      "count": 224
+    },
+    {
+      "legend": "Orthoquartzite",
+      "count": 224
+    },
+    {
+      "legend": "Banded biotite gneiss and migmatite",
+      "count": 224
+    },
+    {
+      "legend": "Internal dune; red aeolian sand",
+      "count": 197
+    },
+    {
+      "legend": "Undifferentiated",
+      "count": 186
+    },
+    {
+      "legend": "Amphibolitic gneiss, garnet amphibolite",
+      "count": 162
+    },
+    {
+      "legend": "Alluvium",
+      "count": 158
+    },
+    {
+      "legend": "Granitic to granodioritic gneiss",
+      "count": 152
+    },
+    {
+      "legend": "Lacustrine saline mud",
+      "count": 129
+    },
+    {
+      "legend": "Colluvium",
+      "count": 116
+    },
+    {
+      "legend": "Fine- to medium grained sand and gravel; raised beach ridge/dunes and tidal flats",
+      "count": 106
+    },
+    {
+      "legend": "Leucocratic gneiss",
+      "count": 97
+    },
+    {
+      "legend": "Fluvial terrace gravel and sand",
+      "count": 91
+    },
+    {
+      "legend": "Augen gneiss, with charnockite",
+      "count": 89
+    },
+    {
+      "legend": "Arkosic sandstone, in part conglomeratic",
+      "count": 81
+    },
+    {
+      "legend": "Quartzite",
+      "count": 81
+    },
+    {
+      "legend": "Serra Banguatere aplitic gneiss-migmatite  (867\uff7115 Ma, magmatic U/Pb)",
+      "count": 79
+    },
+    {
+      "legend": "Unconsolidated sand, sandstone and conglomerate",
+      "count": 78
+    },
+    {
+      "legend": "Charnockite",
+      "count": 76
+    },
+    {
+      "legend": "Augen gneiss with charnockite",
+      "count": 73
+    },
+    {
+      "legend": "Metagabbro",
+      "count": 72
+    },
+    {
+      "legend": "Sandbars, sub-tidal",
+      "count": 71
+    },
+    {
+      "legend": "Organic-rich and saline mud; mangrove swamps and salt marsh flats",
+      "count": 70
+    },
+    {
+      "legend": "Quartzite, marble, calc-silicate",
+      "count": 68
+    },
+    {
+      "legend": "Rhyolite Member; rhyolite, tuff, ignimbrite",
+      "count": 67
+    },
+    {
+      "legend": "Channel and floodplain alluvium, wetland deposites and hydromorphic soils",
+      "count": 66
+    },
+    {
+      "legend": "Quartz-feldspar Gneiss, sillimanite bearing",
+      "count": 66
+    },
+    {
+      "legend": "Mafic granulitic gneiss",
+      "count": 63
+    },
+    {
+      "legend": "Diatexitic granite gneiss/migmatite",
+      "count": 61
+    },
+    {
+      "legend": "Alluvial mud of fluvial-marine origin",
+      "count": 57
+    },
+    {
+      "legend": "Siliciclastic metasediment",
+      "count": 56
+    },
+    {
+      "legend": "Strongly foliated pink K-feldspar granite gneiss (equigranular)",
+      "count": 56
+    },
+    {
+      "legend": "Saccharoidal quartzite, quartzitic schist",
+      "count": 55
+    },
+    {
+      "legend": "Meta-arkose and Quartzite Member; meta-arkose, arkosic quartzite",
+      "count": 54
+    },
+    {
+      "legend": "Lacustrine limestone",
+      "count": 53
+    },
+    {
+      "legend": "Arkosic sandstone, conglomerate and limestone beds",
+      "count": 53
+    },
+    {
+      "legend": "Dark grey and dark red amygdaloidal basalt, tuff and mudrock",
+      "count": 52
+    },
+    {
+      "legend": "Marble",
+      "count": 51
+    },
+    {
+      "legend": "Porphyritic granite, small phenocrysts",
+      "count": 50
+    },
+    {
+      "legend": "Dolerite, gabbro (1102 Ma, magmatic Sm/Nd)",
+      "count": 49
+    },
+    {
+      "legend": "Granitic gneiss",
+      "count": 49
+    },
+    {
+      "legend": "Rhyolite",
+      "count": 48
+    },
+    {
+      "legend": "Meta-arkose, quartz-feldspar gneiss (<1300 Ma, U/Pb), interbands of mafic metavolcanics (Unit P2ZBav)",
+      "count": 47
+    },
+    {
+      "legend": "Medium-grained leucogranitic gneiss, migmatitic",
+      "count": 47
+    },
+    {
+      "legend": "Mafic granulite",
+      "count": 47
+    },
+    {
+      "legend": "Organic sediments and hydromorphic soils; back-barrier and interdune wetlands",
+      "count": 46
+    },
+    {
+      "legend": "Leucogranite, fine-grained",
+      "count": 45
+    },
+    {
+      "legend": "Lower Quartzite Member; quartzite, medium-grained",
+      "count": 44
+    },
+    {
+      "legend": "Sandstone, marl, argillite, coal seams",
+      "count": 42
+    },
+    {
+      "legend": "Ultramafic gneiss",
+      "count": 41
+    },
+    {
+      "legend": "Desaranhama Granite; biotite granite and granodiorite, often porphyritic (1041\uff714 Ma, magmatic U/Pb)",
+      "count": 38
+    },
+    {
+      "legend": "Mylonitic to flaser orthogneiss",
+      "count": 38
+    },
+    {
+      "legend": "Monte Elinasse Charnockitic Granofels and Gneiss, partly porphyric",
+      "count": 38
+    },
+    {
+      "legend": "Megacrystic granitic gneiss",
+      "count": 38
+    },
+    {
+      "legend": "Basalt Member; amygdaloidal basalt, subordinate rhyolite",
+      "count": 37
+    },
+    {
+      "legend": "Charnockitic gneiss, partly migmatitic",
+      "count": 36
+    },
+    {
+      "legend": "Dolerite, columnar",
+      "count": 35
+    },
+    {
+      "legend": "Tonalitic gneiss",
+      "count": 35
+    },
+    {
+      "legend": "Limestone and Sandstone Member; limestone and sandstone",
+      "count": 34
+    },
+    {
+      "legend": "Granite-gneiss, medium- to coarse-grained",
+      "count": 34
+    },
+    {
+      "legend": "Streaky augen leocogranitic gneiss",
+      "count": 34
+    },
+    {
+      "legend": "Feldspathic quartzite, garnetiferous",
+      "count": 33
+    },
+    {
+      "legend": "Tonalitic gneiss, banded and biotite-rich",
+      "count": 32
+    },
+    {
+      "legend": "Quartz-feldspar leucogneiss, with amphibolite",
+      "count": 32
+    },
+    {
+      "legend": "Volcanic vent; augite-bearing alkaline basalt",
+      "count": 31
+    },
+    {
+      "legend": "Biotite Schist Member; biotite-garnet-sillimanite schist (<2000 Ma, U/Pb)",
+      "count": 31
+    },
+    {
+      "legend": "Mamala Gneiss; leucocratic gneiss",
+      "count": 31
+    },
+    {
+      "legend": "Rio Chiticula Gabbro; gabbro(-anorthosite)",
+      "count": 31
+    },
+    {
+      "legend": "Ultramafic rocks",
+      "count": 31
+    },
+    {
+      "legend": "Beach, active foredunes, intertidal sand flats",
+      "count": 31
+    },
+    {
+      "legend": "Sandstone Member; sandstone, minor conglomerate",
+      "count": 30
+    },
+    {
+      "legend": "Charnockitic to enderbitic granofels, partly gneissic",
+      "count": 30
+    },
+    {
+      "legend": "Castanho Granite; brown granite and quartz syenite to monzodiorite, often pyroxene-bearing (1050 Ma, magmatic U/Pb)",
+      "count": 29
+    },
+    {
+      "legend": "Mung\u7051i garnet gneiss-granite, with metasediment",
+      "count": 28
+    },
+    {
+      "legend": "Pebble-bearing debris",
+      "count": 28
+    },
+    {
+      "legend": "Raised beach sediment/Coastal sand(stone)",
+      "count": 28
+    },
+    {
+      "legend": "Phonolitic lava",
+      "count": 28
+    },
+    {
+      "legend": "Granite gneiss",
+      "count": 28
+    },
+    {
+      "legend": "Lower Marble Member; marble with calc-silicate interbeds",
+      "count": 28
+    },
+    {
+      "legend": "Muscovite-biotite schist (<2041 Ma, U/Pb)",
+      "count": 28
+    },
+    {
+      "legend": "Reddish brown weathered fine-grained aeolian sand; \"decksand\" of Jaritz et al. (1977).",
+      "count": 28
+    },
+    {
+      "legend": "Amygdaloidal basalt",
+      "count": 27
+    },
+    {
+      "legend": "Magossa metagabbro and mafic gneiss, migmatitic",
+      "count": 27
+    },
+    {
+      "legend": "Monte Chissui Gneiss; felsic biotite gneiss, metagranite",
+      "count": 27
+    },
+    {
+      "legend": "Upper Sandstone Member; conglomeratic sandstone",
+      "count": 27
+    },
+    {
+      "legend": "Carbonatite",
+      "count": 27
+    },
+    {
+      "legend": "Lower Quartzite Member; quartzite and sericite quartzite",
+      "count": 26
+    },
+    {
+      "legend": "Amphibolitic gneiss",
+      "count": 26
+    },
+    {
+      "legend": "Stromatic mafic gneiss and charnockitic gneiss",
+      "count": 26
+    },
+    {
+      "legend": "Syenitic gneiss",
+      "count": 26
+    },
+    {
+      "legend": "Monte Tomonda leucocratic gneiss, garnetiferous",
+      "count": 26
+    },
+    {
+      "legend": "Kimberlite",
+      "count": 26
+    },
+    {
+      "legend": "Quartzite, arkose and ferrigeneous quartzite",
+      "count": 26
+    },
+    {
+      "legend": "Granodioritic gneiss",
+      "count": 25
+    },
+    {
+      "legend": "Greenstone, greenschist and metagabbro",
+      "count": 25
+    },
+    {
+      "legend": "Garnet-sillimanite gneiss, mica gneiss, metagreywacke",
+      "count": 25
+    },
+    {
+      "legend": "Serpentinite, metakomatiite",
+      "count": 25
+    },
+    {
+      "legend": "Thorium sandstone Member; conglomeratic sandstone (high Th signature)",
+      "count": 24
+    },
+    {
+      "legend": "Mylonitic quartz-feldspar gneiss with ribbon quartz",
+      "count": 24
+    },
+    {
+      "legend": "Hornblende-bearing granodioritic gneiss",
+      "count": 23
+    },
+    {
+      "legend": "Mafic dyke",
+      "count": 22
+    },
+    {
+      "legend": "Microcline granite (502\uff718 Ma, magmatic U/Pb)",
+      "count": 22
+    },
+    {
+      "legend": "Calc-silicate Gneiss Member; calc-silicate gneiss",
+      "count": 22
+    },
+    {
+      "legend": "Porphyritic granite, large phenocrysts",
+      "count": 22
+    },
+    {
+      "legend": "Cabe Member; calc-arenite with conglomerate and quartzite, fragments of fossil microfauna",
+      "count": 21
+    },
+    {
+      "legend": "Calc-silicate gneiss, skarn",
+      "count": 21
+    },
+    {
+      "legend": "Grey and yellowish dune sand; parabolic and hummocky dunes",
+      "count": 21
+    },
+    {
+      "legend": "Monte Inchinga granite, porphyritic",
+      "count": 20
+    },
+    {
+      "legend": "Basalt",
+      "count": 20
+    },
+    {
+      "legend": "Upper Limestone Member; limestone",
+      "count": 20
+    },
+    {
+      "legend": "Basal Conglomerate Member; conglomeratic sandstone",
+      "count": 20
+    },
+    {
+      "legend": "Sandstone, silicified sandstone",
+      "count": 20
+    },
+    {
+      "legend": "Volcanic breccia, agglomerate",
+      "count": 20
+    },
+    {
+      "legend": "Sandstone and conglomerate",
+      "count": 19
+    },
+    {
+      "legend": "Augen gneiss, granitic",
+      "count": 19
+    },
+    {
+      "legend": "Monte Calinga Muci granite-gneiss with mafic gneiss, migmatitic (867\uff719 Ma, U/Pb)",
+      "count": 19
+    },
+    {
+      "legend": "Metasandstone, quartz-feldspar schist, interlayers of felsic metavolcanic rock",
+      "count": 18
+    },
+    {
+      "legend": "Aeolian sand",
+      "count": 18
+    },
+    {
+      "legend": "Ultramafic rock",
+      "count": 18
+    },
+    {
+      "legend": "Migmatitic paragneiss",
+      "count": 18
+    },
+    {
+      "legend": "Amphibolite Member; banded amphibolite",
+      "count": 18
+    },
+    {
+      "legend": "Felsic to intermediate granulitic gneiss",
+      "count": 18
+    },
+    {
+      "legend": "Gabbro dyke",
+      "count": 18
+    },
+    {
+      "legend": "Grey sandstone and interbedded coquina horizons",
+      "count": 18
+    },
+    {
+      "legend": "Mica schist, mica gneiss, biotite-plagioclase gneiss",
+      "count": 17
+    },
+    {
+      "legend": "Marble, impure carbonate rock",
+      "count": 17
+    },
+    {
+      "legend": "Granite, granodiorite and quartz diorite (1050\uff718 Ma, magmatic U/Pb)",
+      "count": 17
+    },
+    {
+      "legend": "Banded migmatitic gneiss",
+      "count": 17
+    },
+    {
+      "legend": "Gabbro, gabbroic rock",
+      "count": 17
+    },
+    {
+      "legend": "Inchope orthogneiss (1079 Ma, magmatic U/Pb)",
+      "count": 17
+    },
+    {
+      "legend": "Leucogranitic gneiss",
+      "count": 17
+    },
+    {
+      "legend": "Syenite, nepheline syenite",
+      "count": 17
+    },
+    {
+      "legend": "Gabbro",
+      "count": 16
+    },
+    {
+      "legend": "Limestone, calc-arenite, conglomerate with fossils",
+      "count": 16
+    },
+    {
+      "legend": "Garnet-bearing metagranite, paragneiss",
+      "count": 16
+    },
+    {
+      "legend": "Urrongas Member; limestone and brecciated limestone",
+      "count": 16
+    },
+    {
+      "legend": "Sand sheets with local gravels",
+      "count": 16
+    },
+    {
+      "legend": "Metabasalt, mafic schist, banded ironstone (Unit A3MMbaf)",
+      "count": 16
+    },
+    {
+      "legend": "Migmatitic leucogneiss",
+      "count": 16
+    },
+    {
+      "legend": "Meta-arkose, locally with amphibolite",
+      "count": 16
+    },
+    {
+      "legend": "Gneissic granite",
+      "count": 16
+    },
+    {
+      "legend": "Quartz vein, mostly brecciated",
+      "count": 15
+    },
+    {
+      "legend": "Middle Sandstone Member; conglomeratic sandstone",
+      "count": 15
+    },
+    {
+      "legend": "Sandstone and mudstone, interbedded",
+      "count": 15
+    },
+    {
+      "legend": "Banded garnet-pyroxene granulite, quartz-feldspar and calc-silicate gneiss",
+      "count": 14
+    },
+    {
+      "legend": "Basal Limestone Member; limestone",
+      "count": 14
+    },
+    {
+      "legend": "Felsic metavolcanic rock, metatuff, agglomerate",
+      "count": 14
+    },
+    {
+      "legend": "Sandstone",
+      "count": 14
+    },
+    {
+      "legend": "Red sand and sandstone, local silicification",
+      "count": 14
+    },
+    {
+      "legend": "Monte Senge granite, deformed",
+      "count": 14
+    },
+    {
+      "legend": "Upper Quartzite Member; orthoquartzite, coarse-grained",
+      "count": 14
+    },
+    {
+      "legend": "Talc-chlorite schist, talc schist, soapstone, banded ironstone (Unit A3MMtcf)",
+      "count": 14
+    },
+    {
+      "legend": "Lichinga Gneiss; enderbitic to charnockitic granofels, partly migmatitic",
+      "count": 14
+    },
+    {
+      "legend": "Strongly foliated K-feldspar granitic gneiss (equigranular)",
+      "count": 14
+    },
+    {
+      "legend": "Conglomeratic sandstone",
+      "count": 13
+    },
+    {
+      "legend": "Augen gneiss with charnockite, migmatitic",
+      "count": 13
+    },
+    {
+      "legend": "Cassenga Leucogranite, hornblende-bearing",
+      "count": 13
+    },
+    {
+      "legend": "Charnockitic gneiss",
+      "count": 13
+    },
+    {
+      "legend": "Chacocoma Granite; porphyritic biotite granite (1046\uff7120 Ma, magmatic U/Pb), augengneiss, mylonitic to phyllonitic in places",
+      "count": 13
+    },
+    {
+      "legend": "Marine reef, coral and bioclastic sediments",
+      "count": 13
+    },
+    {
+      "legend": "Biotite gneiss",
+      "count": 13
+    },
+    {
+      "legend": "Andesite Member; amygdaloidal andesite, subordinate rhyolite",
+      "count": 12
+    },
+    {
+      "legend": "Mafic to intermediate metavolcanic rock",
+      "count": 12
+    },
+    {
+      "legend": "Clayey marl, sandstone, limestone with fossils",
+      "count": 12
+    },
+    {
+      "legend": "Quartz mica gneiss and schist, locally graphite-bearing",
+      "count": 12
+    },
+    {
+      "legend": "Charnockitic rocks",
+      "count": 12
+    },
+    {
+      "legend": "Syenitic gneiss, alkaline granite",
+      "count": 12
+    },
+    {
+      "legend": "Siltstone, sandstone, argillite with coal seams",
+      "count": 11
+    },
+    {
+      "legend": "Chi\u5040a Serra Granite; coarse, porphyritic biotite granite, garnet-bearing",
+      "count": 11
+    },
+    {
+      "legend": "Monte Hombe granodiorite and tonalite, migmatitic",
+      "count": 11
+    },
+    {
+      "legend": "Limestone, glauconitic sandstone",
+      "count": 11
+    },
+    {
+      "legend": "Trachyte, syenite",
+      "count": 11
+    },
+    {
+      "legend": "Amphibole-bearing granitic gneiss",
+      "count": 11
+    },
+    {
+      "legend": "Amygdaloidal basaltic andesite lava",
+      "count": 11
+    },
+    {
+      "legend": "Limestone, nummulitic or as coral reef, marl and sandstone",
+      "count": 11
+    },
+    {
+      "legend": "Quartzite, muscovite- and kyanite-bearing",
+      "count": 11
+    },
+    {
+      "legend": "Amphibolite",
+      "count": 11
+    },
+    {
+      "legend": "Carbonatite breccia",
+      "count": 10
+    },
+    {
+      "legend": "Mafic and ultramafic metavolcanic rock",
+      "count": 10
+    },
+    {
+      "legend": "Felsic metavolcanic rock, ignimbrite, volcanic breccia (1327\uff7116 Ma, magmatic U/Pb)",
+      "count": 10
+    },
+    {
+      "legend": "Calcarenite with glauconite and fossil macrofauna",
+      "count": 10
+    },
+    {
+      "legend": "Upper Conglomerate Sandstone Member; conglomerate, minor sandstone",
+      "count": 10
+    },
+    {
+      "legend": "Dacite and Trachydacite Member; dacite and trachydacite",
+      "count": 10
+    },
+    {
+      "legend": "Rio Capoche Granite; medium-to coarse-grained, foliated, leucocratic granite, granodiorite (1201 Ma, magmatic U/Pb)",
+      "count": 10
+    },
+    {
+      "legend": "Meta-sandstone",
+      "count": 10
+    },
+    {
+      "legend": "Biotite-garnet(-sillimanite) gneiss",
+      "count": 10
+    },
+    {
+      "legend": "Marble Member; marble, white, coarse-grained",
+      "count": 10
+    },
+    {
+      "legend": "Ultramafic metavolcanic rock, talc-chlorite schist, banded ironstone (Unit A3MHfe)",
+      "count": 10
+    },
+    {
+      "legend": "Siltstone and sandstone with carbonaceous levels; coal-layer",
+      "count": 10
+    },
+    {
+      "legend": "Metaconglomerate, quartzite",
+      "count": 10
+    },
+    {
+      "legend": "Coral-bearing limestone and coquina",
+      "count": 10
+    },
+    {
+      "legend": "Metasandstone, calc-silicate gneiss and amphibolite",
+      "count": 9
+    },
+    {
+      "legend": "Lower Sandstone Member; conglomeratic sandstone",
+      "count": 9
+    },
+    {
+      "legend": "Feldspar porphyry",
+      "count": 9
+    },
+    {
+      "legend": "Granite and pegmatite",
+      "count": 9
+    },
+    {
+      "legend": "Serra Romulo Monzogranite",
+      "count": 9
+    },
+    {
+      "legend": "Quartz-rich paragneiss",
+      "count": 9
+    },
+    {
+      "legend": "Calc-silicate gneiss and schist",
+      "count": 9
+    },
+    {
+      "legend": "Biotite Gneiss Member; biotite gneiss with quartz-sillimanite nodules",
+      "count": 9
+    },
+    {
+      "legend": "Quartzo-feldspathic Member; quartzo-feldspathic rock, massive",
+      "count": 9
+    },
+    {
+      "legend": "Siltstone Member; siltstone, slate and phyllite",
+      "count": 9
+    },
+    {
+      "legend": "Meta-arkose and meta-arenite",
+      "count": 9
+    },
+    {
+      "legend": "Rapale Gneiss; hornblende-bearing granodioritic gneiss",
+      "count": 9
+    },
+    {
+      "legend": "Tonalitic gneiss/migmatite",
+      "count": 9
+    },
+    {
+      "legend": "Migmatitic quartz-feldspar-hornblende gneiss",
+      "count": 9
+    },
+    {
+      "legend": "Basalt and Massive Dolerite Member; basalt and massive dolerite",
+      "count": 8
+    },
+    {
+      "legend": "Sandstone Member; red arkosic sandstone (high K signature)",
+      "count": 8
+    },
+    {
+      "legend": "Syenite",
+      "count": 8
+    },
+    {
+      "legend": "Quartz-feldspar gneiss and quartzite, locally magnetite-bearing",
+      "count": 8
+    },
+    {
+      "legend": "Garnet-sillimanite gneiss, mica gneiss, migmatitic",
+      "count": 8
+    },
+    {
+      "legend": "Upper Marble Member; marble",
+      "count": 8
+    },
+    {
+      "legend": "Foliated granite, porphyritic in places, quartz vein (Unit A3Vqz)",
+      "count": 8
+    },
+    {
+      "legend": "TTG gneiss, foliated granitoids (2710-2600 Ma, magmatic U/Pb)",
+      "count": 8
+    },
+    {
+      "legend": "Sandstone  and conglomerate (silicificied)",
+      "count": 8
+    },
+    {
+      "legend": "Mylonitic granite",
+      "count": 8
+    },
+    {
+      "legend": "Amphibole-bearing granitic diatexite,",
+      "count": 8
+    },
+    {
+      "legend": "Metapelitic gneiss and migmatite",
+      "count": 8
+    },
+    {
+      "legend": "Quartzofeldspathic leucogneiss",
+      "count": 8
+    },
+    {
+      "legend": "Tonalitic quartz-feldspathic gneiss",
+      "count": 8
+    },
+    {
+      "legend": "Cobbel-conglomerate grading into fine-grained, calcareous sandstone; beach deposites overlain by dune deposites, weathered red-brown sand profile",
+      "count": 8
+    },
+    {
+      "legend": "Interlayered felsic and mafic gneiss",
+      "count": 7
+    },
+    {
+      "legend": "Pyroxenite",
+      "count": 7
+    },
+    {
+      "legend": "Basal conglomerate, gritty sandstone, tillite",
+      "count": 7
+    },
+    {
+      "legend": "Gabbro, subordinate anorthosite",
+      "count": 7
+    },
+    {
+      "legend": "Coarse gabbro and anorthositic leucogabbro (1047\uff7129 Ma, magmatic Sm/Nd)",
+      "count": 7
+    },
+    {
+      "legend": "Mussata Granite; porphyritic biotite granite, augengneiss, mylonitic to phyllonitic in places",
+      "count": 7
+    },
+    {
+      "legend": "Muenda Gabbro; undeformed to locally foliated",
+      "count": 7
+    },
+    {
+      "legend": "Limestone, fossiliferous or coral reef, with basal sandstone",
+      "count": 7
+    },
+    {
+      "legend": "Leucocratic quartz-feldspar-hornblende gneiss/migmatite",
+      "count": 7
+    },
+    {
+      "legend": "Calc-silicate gneiss, skarn, metachert",
+      "count": 7
+    },
+    {
+      "legend": "Mafic pyroclastic rock and mica schist, ironstone (Unit P2FRvfe)",
+      "count": 7
+    },
+    {
+      "legend": "Hornblendite",
+      "count": 7
+    },
+    {
+      "legend": "Marble Member; marble",
+      "count": 7
+    },
+    {
+      "legend": "Massive granite",
+      "count": 7
+    },
+    {
+      "legend": "Foliated granite, porphyritic in places",
+      "count": 7
+    },
+    {
+      "legend": "Leucogneiss",
+      "count": 7
+    },
+    {
+      "legend": "Interior dune; red aeolian sand",
+      "count": 7
+    },
+    {
+      "legend": "Metarhyolite",
+      "count": 7
+    },
+    {
+      "legend": "Meta-arenite and quartzite",
+      "count": 7
+    },
+    {
+      "legend": "Dioritic gneiss",
+      "count": 7
+    },
+    {
+      "legend": "Metagabbro and mafic gneiss",
+      "count": 7
+    },
+    {
+      "legend": "Meponda Gneiss; Biotite and biotite-hornblende gneiss",
+      "count": 7
+    },
+    {
+      "legend": "Granitic to granodioritic gneiss, not differentiated",
+      "count": 7
+    },
+    {
+      "legend": "Calcified raised beach sands (beachrock) and gravels",
+      "count": 7
+    },
+    {
+      "legend": "Pyroxene hornblende garnet granulite",
+      "count": 7
+    },
+    {
+      "legend": "Pyroxene gabbro, medium-grained (864\uff7150 Ma, magmatic Sm/Nd)",
+      "count": 6
+    },
+    {
+      "legend": "Porphyritic quartz monzonite and quartz syenite",
+      "count": 6
+    },
+    {
+      "legend": "Monte Tarai Granite; granite and quartz-feldspar porphyry",
+      "count": 6
+    },
+    {
+      "legend": "Augen gneiss",
+      "count": 6
+    },
+    {
+      "legend": "Granitic to granodioritic pegmatite",
+      "count": 6
+    },
+    {
+      "legend": "Quartz-mica schist, partly chlorite schist",
+      "count": 6
+    },
+    {
+      "legend": "Graphite Schist Member; cryptocrystalline quartzite and graphite schist",
+      "count": 6
+    },
+    {
+      "legend": "Banded ironstone",
+      "count": 6
+    },
+    {
+      "legend": "Biotite gneiss, locally graphitic, interlayered with meta-sandstone, quartzite and amphibolite",
+      "count": 6
+    },
+    {
+      "legend": "Granite, locally feldspar-phyric",
+      "count": 6
+    },
+    {
+      "legend": "Quartz-feldspar gneiss",
+      "count": 6
+    },
+    {
+      "legend": "Muscovite-biotite gneiss and schist, partly mylonitic",
+      "count": 6
+    },
+    {
+      "legend": "Mudstone",
+      "count": 6
+    },
+    {
+      "legend": "Quartz-feldspar gneiss, sillimanite-bearing",
+      "count": 6
+    },
+    {
+      "legend": "Actino-tremolite gneiss",
+      "count": 6
+    },
+    {
+      "legend": "Quartz monzonite to diorite, locally tonalite",
+      "count": 5
+    },
+    {
+      "legend": "Garnetiferous ortho- and paragneiss, amphibolite",
+      "count": 5
+    },
+    {
+      "legend": "Agglomerate Member; trachytic agglomerate, tuff, lapilli, volcanic bomb",
+      "count": 5
+    },
+    {
+      "legend": "Foz do Rio Banhale quartz diorite",
+      "count": 5
+    },
+    {
+      "legend": "Limestone Member; limestone and sandy limestone",
+      "count": 5
+    },
+    {
+      "legend": "Marl, silt, limestone, gypsum",
+      "count": 5
+    },
+    {
+      "legend": "Sandstone Member; feldspathic sandstone, tuffaceous sandstone, minor conglomerate",
+      "count": 5
+    },
+    {
+      "legend": "Quartz-sericite schist",
+      "count": 5
+    },
+    {
+      "legend": "Pequenos Libombos Member; rhyolite",
+      "count": 5
+    },
+    {
+      "legend": "Quartz lense; often brecciated",
+      "count": 5
+    },
+    {
+      "legend": "Macanga Granite; medium-grained biotite granite (470\uff7114 Ma, magmatic U/Pb)",
+      "count": 5
+    },
+    {
+      "legend": "Granite, partly porphyritic",
+      "count": 5
+    },
+    {
+      "legend": "Conglomerate and sandstone with siltstone, mudstone and limestone beds",
+      "count": 5
+    },
+    {
+      "legend": "Microgranite",
+      "count": 5
+    },
+    {
+      "legend": "Serra Messolua Charnockite",
+      "count": 5
+    },
+    {
+      "legend": "Coarse-grained mesocratic granite, deformed",
+      "count": 5
+    },
+    {
+      "legend": "Marble, calc-silicate interbeds",
+      "count": 5
+    },
+    {
+      "legend": "Hornblende gneiss, amphibolite",
+      "count": 5
+    },
+    {
+      "legend": "Leucocratic gneiss, often garnet-bearing",
+      "count": 5
+    },
+    {
+      "legend": "Quartz-feldspar gneiss and paragneiss",
+      "count": 5
+    },
+    {
+      "legend": "Garnet-biotite-quartz-feldspar gneiss",
+      "count": 5
+    },
+    {
+      "legend": "Mica schist and mica gneiss",
+      "count": 5
+    },
+    {
+      "legend": "Monte Panda granodiorite, deformed",
+      "count": 5
+    },
+    {
+      "legend": "Mafic to intermediate orthogneiss",
+      "count": 5
+    },
+    {
+      "legend": "Banded TTG gneiss",
+      "count": 5
+    },
+    {
+      "legend": "Mafic and intermediate metavolcanic rock",
+      "count": 5
+    },
+    {
+      "legend": "Mylonite",
+      "count": 5
+    },
+    {
+      "legend": "Tonalite",
+      "count": 5
+    },
+    {
+      "legend": "Marl with calcareous or gypsiferous siltstone",
+      "count": 5
+    },
+    {
+      "legend": "Quartzite, meta-arkose and quartzitic gneiss",
+      "count": 5
+    },
+    {
+      "legend": "Gneissic meta-conglomerate and meta-arkosic gritstone",
+      "count": 5
+    },
+    {
+      "legend": "Anorthositic gneiss",
+      "count": 5
+    },
+    {
+      "legend": "Grey coral-bearing limestone; oyster shell coquina, conglomerate and sandstone",
+      "count": 5
+    },
+    {
+      "legend": "Pyroxene diorite",
+      "count": 4
+    },
+    {
+      "legend": "Tuff Member; tuff, locally siltstone",
+      "count": 4
+    },
+    {
+      "legend": "Monte Capirimpica granite; massive coarse-grained biotite-hornblende granite, aplite (1086\uff717 Ma, magmatic U/Pb)",
+      "count": 4
+    },
+    {
+      "legend": "Megacrystic, deformed granite and granodiorite (1117\uff7112 Ma, 1077\uff712 Ma, magmatic U/Pb)",
+      "count": 4
+    },
+    {
+      "legend": "Rio Ponfi Granite; quartz monzonite, quartz diorite, porphyritic in places",
+      "count": 4
+    },
+    {
+      "legend": "Metasedimentary and metavolcanic rock",
+      "count": 4
+    },
+    {
+      "legend": "Gabbro and diorite, usually deformed",
+      "count": 4
+    },
+    {
+      "legend": "Arkosic quartzite",
+      "count": 4
+    },
+    {
+      "legend": "Metapelitic gneiss/migmatite",
+      "count": 4
+    },
+    {
+      "legend": "Biotite hornblende-quartz-feldspar banded gneiss",
+      "count": 4
+    },
+    {
+      "legend": "Upper Quartzite Member; orthoquartzite and quartzite",
+      "count": 4
+    },
+    {
+      "legend": "Chert Member; calcareous chert",
+      "count": 4
+    },
+    {
+      "legend": "Granodioritic gneiss with amphibolite bands",
+      "count": 4
+    },
+    {
+      "legend": "Siltstone and sandstone",
+      "count": 4
+    },
+    {
+      "legend": "Banded iron formation",
+      "count": 4
+    },
+    {
+      "legend": "Monte Maco Porphyritic Granite",
+      "count": 4
+    },
+    {
+      "legend": "Quartz-feldspar gneiss (meta-arkose)",
+      "count": 4
+    },
+    {
+      "legend": "Leucocratic quartz-feldspar gneiss",
+      "count": 4
+    },
+    {
+      "legend": "Sandstone, conglomeratic, medium to coarse-grained siltstone and sandstone",
+      "count": 4
+    },
+    {
+      "legend": "Migmatitic, stromatic gneiss",
+      "count": 4
+    },
+    {
+      "legend": "Amphibolitic gneiss (metagabbro)",
+      "count": 4
+    },
+    {
+      "legend": "Leucogneiss, locally garnet and biotite-bearing",
+      "count": 4
+    },
+    {
+      "legend": "Garnet-bearing leucogneiss",
+      "count": 4
+    },
+    {
+      "legend": "Pyroxenite, gabbro",
+      "count": 4
+    },
+    {
+      "legend": "Calc-silicate gneiss and marble",
+      "count": 4
+    },
+    {
+      "legend": "Anorthosite, anorthositic gneiss",
+      "count": 4
+    },
+    {
+      "legend": "Quartz feldspar sillimanite garnet gneiss (metapelite) Kyanite, Sillimanite, Quarzite",
+      "count": 4
+    },
+    {
+      "legend": "Syenite, Quartz syenite, granite locally with planar fabric",
+      "count": 4
+    },
+    {
+      "legend": "Dunite",
+      "count": 3
+    },
+    {
+      "legend": "Mafic amygdaloidal, and felsic metavolcanic rock",
+      "count": 3
+    },
+    {
+      "legend": "Garnet (biotite) gneiss, migmatitic",
+      "count": 3
+    },
+    {
+      "legend": "Middle Limestone Member; limestone",
+      "count": 3
+    },
+    {
+      "legend": "Siltstone, conglomerate",
+      "count": 3
+    },
+    {
+      "legend": "Calc-silicate Gneiss Member; calc-silicate gneiss, often migmatitic",
+      "count": 3
+    },
+    {
+      "legend": "Gabbroic dyke",
+      "count": 3
+    },
+    {
+      "legend": "Microgranitic Rhyolite Member; microgranitic rhyolite",
+      "count": 3
+    },
+    {
+      "legend": "Anorthosite",
+      "count": 3
+    },
+    {
+      "legend": "Rio Tchafuro Granite; biotite granite and granodiorite, porphyritic and migmatitic / veined gneiss  (Unit P2RFv)",
+      "count": 3
+    },
+    {
+      "legend": "Granitic gneiss, locally migmatized",
+      "count": 3
+    },
+    {
+      "legend": "Messambe quartz monzonite, homogenous and porphyritic",
+      "count": 3
+    },
+    {
+      "legend": "Veined gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Monte C\u75b1erie Granite; granite and pegmatite",
+      "count": 3
+    },
+    {
+      "legend": "Serra Mecula Granodiorite",
+      "count": 3
+    },
+    {
+      "legend": "Polymictic conglomerate",
+      "count": 3
+    },
+    {
+      "legend": "Mica schist",
+      "count": 3
+    },
+    {
+      "legend": "Leucocratic gneiss, migmatitic",
+      "count": 3
+    },
+    {
+      "legend": "Dolerite (1783 Ma, magmatic Sm/Nd)",
+      "count": 3
+    },
+    {
+      "legend": "TTG gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Phyllite, graphite schist",
+      "count": 3
+    },
+    {
+      "legend": "Quartz-feldspar porphyry",
+      "count": 3
+    },
+    {
+      "legend": "Felsic crystal tuff",
+      "count": 3
+    },
+    {
+      "legend": "Felsic metavolcanic rock",
+      "count": 3
+    },
+    {
+      "legend": "Biotite gneiss, quartz-feldspar gneiss and amphibolitic gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Sandstone with kaolinite",
+      "count": 3
+    },
+    {
+      "legend": "Migmatitic gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Monzonite, foliated",
+      "count": 3
+    },
+    {
+      "legend": "Biotite gneiss, partly mylonitic",
+      "count": 3
+    },
+    {
+      "legend": "Quartz-mica schist",
+      "count": 3
+    },
+    {
+      "legend": "Talc schist",
+      "count": 3
+    },
+    {
+      "legend": "Metagabbro and amphibolite",
+      "count": 3
+    },
+    {
+      "legend": "Calc-silicate gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Granitic to granodioritic migmatitic gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Granitic and tonalitic gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Trondhjemitic gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Malema",
+      "count": 3
+    },
+    {
+      "legend": "Migmatitic grey gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Two pyroxene granulite, +-garnet",
+      "count": 3
+    },
+    {
+      "legend": "Gabbro; undeformed to locally foliated",
+      "count": 3
+    },
+    {
+      "legend": "Garnet bearing quartz feldspar banded gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Quartz-feldspar and amphibolitic gneiss",
+      "count": 3
+    },
+    {
+      "legend": "Nepheline Syenite",
+      "count": 3
+    },
+    {
+      "legend": "Equigranular mesocratic hornblende orhtogneiss",
+      "count": 3
+    },
+    {
+      "legend": "Ortho- and paragneiss",
+      "count": 2
+    },
+    {
+      "legend": "Microsyenite, trachyte",
+      "count": 2
+    },
+    {
+      "legend": "Aeolian sand, siltstone and red sandstone",
+      "count": 2
+    },
+    {
+      "legend": "Limestone Member; sandy limestone",
+      "count": 2
+    },
+    {
+      "legend": "Sandstone with local silification",
+      "count": 2
+    },
+    {
+      "legend": "Sandstone Member; red sandstone",
+      "count": 2
+    },
+    {
+      "legend": "Quartz-feldspar gneiss and amphibolitic gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Iron-rich lithic metasandstone and quartzite",
+      "count": 2
+    },
+    {
+      "legend": "Pebbly sandstone, conglomerate",
+      "count": 2
+    },
+    {
+      "legend": "Breccia Member; volcanic breccia, ignimbrite",
+      "count": 2
+    },
+    {
+      "legend": "Pink granophyric granite, often porphyritic (195-180 Ma, magmatic U/Pb)",
+      "count": 2
+    },
+    {
+      "legend": "Trachyte, syenite, agglomerate",
+      "count": 2
+    },
+    {
+      "legend": "Nacoco Granite; equigranular granodiorite and quartz monzodiorite, subordinate charnockite",
+      "count": 2
+    },
+    {
+      "legend": "Deformed Desaranhama Granite; biotite-hornblende orthogneiss, porphyritic granite and granodiorite",
+      "count": 2
+    },
+    {
+      "legend": "Monte Dezenza Gneiss; biotite(-hornblende) gneiss, scattered mafic and ultramafic rocks",
+      "count": 2
+    },
+    {
+      "legend": "Metasandstone and biotite gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Mafic metavolcanic rock, conglomerate (Unit P2Dvlc)",
+      "count": 2
+    },
+    {
+      "legend": "Quartz-feldspar gneiss, migmatitic",
+      "count": 2
+    },
+    {
+      "legend": "Arenaceous mica schist",
+      "count": 2
+    },
+    {
+      "legend": "Metadolerite (503\uff717.5 Ma, metamorphic Sm/Nd)",
+      "count": 2
+    },
+    {
+      "legend": "Porphyritic granite and granodiorite, non-foliated",
+      "count": 2
+    },
+    {
+      "legend": "Garnet gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Pegmatite",
+      "count": 2
+    },
+    {
+      "legend": "Mica schist with aluminous and quartzitic layers",
+      "count": 2
+    },
+    {
+      "legend": "Metagreywacke",
+      "count": 2
+    },
+    {
+      "legend": "Intermediate metavolcanic rock",
+      "count": 2
+    },
+    {
+      "legend": "Mafic and ultramafic metavolcanic rock, metachert (Unit A3MMch)",
+      "count": 2
+    },
+    {
+      "legend": "Sand and sandy soil",
+      "count": 2
+    },
+    {
+      "legend": "Granitic to granodioritic gneiss, locally migmatitic",
+      "count": 2
+    },
+    {
+      "legend": "Siltstone with sandstone and fine grained sandstone",
+      "count": 2
+    },
+    {
+      "legend": "Granitic mylonite",
+      "count": 2
+    },
+    {
+      "legend": "Hornblende gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Conglomerate and arkosic sandstone",
+      "count": 2
+    },
+    {
+      "legend": "Chiconono Gneiss; Granodioritic, locally feldspar-phyric",
+      "count": 2
+    },
+    {
+      "legend": "Coastal sand (stone)",
+      "count": 2
+    },
+    {
+      "legend": "Chala Gneiss; Banded mafic granulitic gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Granodioritic to gabbroic gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Granitic to tonalitic gneiss, locally migmatitic",
+      "count": 2
+    },
+    {
+      "legend": "Limestone",
+      "count": 2
+    },
+    {
+      "legend": "Sandstone, thickly bedded",
+      "count": 2
+    },
+    {
+      "legend": "Monte Balise Quartz Porphyry",
+      "count": 2
+    },
+    {
+      "legend": "Quartzite and quartzitic gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Serpentinite",
+      "count": 2
+    },
+    {
+      "legend": "Quartz-feldspar-garnet gneiss",
+      "count": 2
+    },
+    {
+      "legend": "Serra Nampatiua Gabbro",
+      "count": 2
+    },
+    {
+      "legend": "Serra Lipane Granite",
+      "count": 2
+    },
+    {
+      "legend": "Biotite gneiss, locally conglomeratic and with sillimanite-nodules",
+      "count": 2
+    },
+    {
+      "legend": "Serra Nampatiua Monzonite (monzogranite)",
+      "count": 2
+    },
+    {
+      "legend": "Biotite granite and granodiorite, often porphyritic",
+      "count": 2
+    },
+    {
+      "legend": "Tonalitic gneiss and migmatite",
+      "count": 2
+    },
+    {
+      "legend": "Ljolite",
+      "count": 2
+    },
+    {
+      "legend": "Rio Mepembe Gneiss; ortho- and paragneiss, tonalitic",
+      "count": 1
+    },
+    {
+      "legend": "Granite gneiss (528\uff714 Ma, metamorphic U/Pb)",
+      "count": 1
+    },
+    {
+      "legend": "Brecciated quartz",
+      "count": 1
+    },
+    {
+      "legend": "Phenocrystic Rhyolite Member; fine-grained rhyolite, phenocrysts",
+      "count": 1
+    },
+    {
+      "legend": "Rhyolitic breccia",
+      "count": 1
+    },
+    {
+      "legend": "Agglomeratic Member; rhyolite with agglomeratic layers",
+      "count": 1
+    },
+    {
+      "legend": "Mylonitic mafic and felsic gneiss, migmatitic",
+      "count": 1
+    },
+    {
+      "legend": "Gneiss and metagabbro",
+      "count": 1
+    },
+    {
+      "legend": "Serra Danvura granitoids; medium- to coarse-grained granite, deformed / porphyritic quartz monzonite and quartz syenite (P2SDp)",
+      "count": 1
+    },
+    {
+      "legend": "Magude Member; ferruginous sandstone",
+      "count": 1
+    },
+    {
+      "legend": "Conglomerate Member; conglomerate, minor sandstone",
+      "count": 1
+    },
+    {
+      "legend": "Micagneiss Member; mica gneiss",
+      "count": 1
+    },
+    {
+      "legend": "Garnet-bearing quartz-feldspar banded gneiss",
+      "count": 1
+    },
+    {
+      "legend": "Tomo-Gimo Mafic Gneiss; amphibolite, pyroxenite, subordinate anorthosite, and magnetite",
+      "count": 1
+    },
+    {
+      "legend": "Volcanic conglomerate",
+      "count": 1
+    },
+    {
+      "legend": "Diamictite",
+      "count": 1
+    },
+    {
+      "legend": "Calcareous sandstone with fossils",
+      "count": 1
+    },
+    {
+      "legend": "Undifferentiated Karoo sedimentary and volcanic rocks",
+      "count": 1
+    },
+    {
+      "legend": "Rhyodacite and rhyolite",
+      "count": 1
+    },
+    {
+      "legend": "Quartz Latite Member; quartz latite",
+      "count": 1
+    },
+    {
+      "legend": "Dacite, volcanic plug",
+      "count": 1
+    },
+    {
+      "legend": "Alkaline rock",
+      "count": 1
+    },
+    {
+      "legend": "Pessene nepheline syenite",
+      "count": 1
+    },
+    {
+      "legend": "Pessene alkaline lava",
+      "count": 1
+    },
+    {
+      "legend": "Trachyte",
+      "count": 1
+    },
+    {
+      "legend": "Alkaline intrusion",
+      "count": 1
+    },
+    {
+      "legend": "Granite, syenitic (181\uff711 Ma, magmatic U/Pb)",
+      "count": 1
+    },
+    {
+      "legend": "Monte Muande carbonatite",
+      "count": 1
+    },
+    {
+      "legend": "Volcanic breccia",
+      "count": 1
+    },
+    {
+      "legend": "Pamassara granite, granodiorite, adamellite",
+      "count": 1
+    },
+    {
+      "legend": "Talc-altered serpentinite",
+      "count": 1
+    },
+    {
+      "legend": "Marirongoe Granite, heterogeneous",
+      "count": 1
+    },
+    {
+      "legend": "Metadolerite",
+      "count": 1
+    },
+    {
+      "legend": "Medium-grained,  gneissic granite",
+      "count": 1
+    },
+    {
+      "legend": "Quartz diorite, diorite and tonalite",
+      "count": 1
+    },
+    {
+      "legend": "Bo\u99f8i granite; tonalite, quartz diorite, diorite",
+      "count": 1
+    },
+    {
+      "legend": "Ultramafic metavolcanic rock",
+      "count": 1
+    },
+    {
+      "legend": "Gabbro and diorite",
+      "count": 1
+    },
+    {
+      "legend": "Anorthosite, layered",
+      "count": 1
+    },
+    {
+      "legend": "Garnetiferous leucogranite, often gneissic",
+      "count": 1
+    },
+    {
+      "legend": "Quartzite Member; garnetiferous quartzite",
+      "count": 1
+    },
+    {
+      "legend": "Medium-grained foliated tonalite and granodiorite",
+      "count": 1
+    },
+    {
+      "legend": "Quartz monzonite and quartz monzodiorite",
+      "count": 1
+    },
+    {
+      "legend": "Migmatitic granite",
+      "count": 1
+    },
+    {
+      "legend": "Amphibolite, garnet amphibolite",
+      "count": 1
+    },
+    {
+      "legend": "Paragneiss with quartzitic intercalates",
+      "count": 1
+    },
+    {
+      "legend": "Aplite granite",
+      "count": 1
+    },
+    {
+      "legend": "Metachert",
+      "count": 1
+    },
+    {
+      "legend": "Granodiorite, tonalite (2907\uff7116 Ma, magmatic U/Pb)",
+      "count": 1
+    },
+    {
+      "legend": "Tuff breccia",
+      "count": 1
+    },
+    {
+      "legend": "Quartzite, arkose and ferrugineous quartzite",
+      "count": 1
+    },
+    {
+      "legend": "Metasandstone Member; metasandstone",
+      "count": 1
+    },
+    {
+      "legend": "Mangeritic gneiss",
+      "count": 1
+    },
+    {
+      "legend": "Sandstone, medium-  to coarse-grained, with some conglomerates and siltstone beds",
+      "count": 1
+    },
+    {
+      "legend": "Metasandstone, metagreyvacke and quartz-mica schist",
+      "count": 1
+    },
+    {
+      "legend": "Conglomerate",
+      "count": 1
+    },
+    {
+      "legend": "Cordierite-biotite gneiss",
+      "count": 1
+    },
+    {
+      "legend": "Matondovela Alkali Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Naumale Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Dioritic  to amphibolitic gneiss",
+      "count": 1
+    },
+    {
+      "legend": "Monte Sanga Quartz Porphyry",
+      "count": 1
+    },
+    {
+      "legend": "Monte Chissindo Nepheline Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Granitic to granodioritic gneiss, mylonitic",
+      "count": 1
+    },
+    {
+      "legend": "Banded migmatite with minor migmatitic granite and amphibolite",
+      "count": 1
+    },
+    {
+      "legend": "Metavolcanite",
+      "count": 1
+    },
+    {
+      "legend": "Metatonalite",
+      "count": 1
+    },
+    {
+      "legend": "Conglomerate with pebbles of fine-grained granite",
+      "count": 1
+    },
+    {
+      "legend": "Quartzite, muscovite and kyanite bearing",
+      "count": 1
+    },
+    {
+      "legend": "Arkosic sandstone and conglomerate",
+      "count": 1
+    },
+    {
+      "legend": "Quartz-porphyric meta-rhyolite",
+      "count": 1
+    },
+    {
+      "legend": "Charnockitic gneiss, feldspar phyric",
+      "count": 1
+    },
+    {
+      "legend": "Monte Messuse Olivine Gabbro",
+      "count": 1
+    },
+    {
+      "legend": "Monte Mapancane Granite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Chande Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Chande Alkali Granite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Metonia Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Muelelo Granite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Livigire Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Massangulo Granite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Nicucute Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Lissiete Granite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Lissiete Syenite",
+      "count": 1
+    },
+    {
+      "legend": "Monte Lalua Monzonite, porphyritic",
+      "count": 1
+    },
+    {
+      "legend": "Granite veins and dykes",
+      "count": 1
+    },
+    {
+      "legend": "Mylonite - ultramylonite to blastomylonite",
+      "count": 1
+    },
+    {
+      "legend": "Serpentine hercynite magnetite rock",
+      "count": 1
+    },
+    {
+      "legend": "Medium grained biotite granite",
+      "count": 1
+    },
+    {
+      "legend": "Biotite-hornblende orthogneiss, porphyritic granite and granodiorite",
+      "count": 1
+    },
+    {
+      "legend": "Equigranular granodiorite and quartz monzodiorite, subordinate charnockite",
+      "count": 1
+    },
+    {
+      "legend": "Pyroxenitic gneiss",
+      "count": 1
+    },
+    {
+      "legend": "Granodiorite",
+      "count": 1
+    },
+    {
+      "legend": "Fine- to medium grained, corss-bedded sandstone",
+      "count": 1
+    },
+    {
+      "legend": "Banded quartz feldspathic gneiss",
+      "count": 1
+    },
+    {
+      "legend": "Basal clay-rich dark reddish brown sand",
+      "count": 1
+    },
+    {
+      "legend": "Coarse grained, planar bedded sandstone containing silicified wood",
+      "count": 1
+    }
+  ]
+}
