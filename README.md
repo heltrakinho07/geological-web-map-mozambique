@@ -193,5 +193,3 @@ For questions or feedback about this application, please refer to the GeoMoz pro
 ---
 
 **Built with ❤️ for professional portfolio showcase**
-
-**[View Live Demo](https://YOUR_USERNAME.github.io/geological-web-map-mozambique/)**
